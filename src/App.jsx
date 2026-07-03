@@ -6,9 +6,11 @@ import Properties from "./pages/Properties"
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer"; 
+import ScrollToTop from "./components/ScrollToTop";
 function App(){
   return(
     <Router>
+     <ScrollToTop />
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
