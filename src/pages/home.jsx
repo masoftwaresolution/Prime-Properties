@@ -92,22 +92,22 @@ function Home() {
                 <p className="text-center text-gray-300">Your trusted partner in buying, renting, and investing.</p>
                 <div className="px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-8">
                     <div className="h-auto w-auto border border-gray-700 hover:border-amber-500 bg-gray-900 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-6 rounded-2xl">
-                        <ShieldCheck className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                        <ShieldCheck className="w-10 h-10 text-amber-400 mx-auto mb-4" />
                         <h1 className="text-3xl font-semibold text-center text-white ">Trusted Agents</h1>
                         <p className="text-center pt-3 text-gray-300">Trusted experts helping you find the perfect property.</p>
                     </div>
                     <div className="h-auto w-auto border border-gray-700 hover:border-amber-500 bg-gray-900 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-6 rounded-2xl">
-                        <Building2 className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                        <Building2 className="w-10 h-10 text-amber-400 mx-auto mb-4" />
                         <h1 className="text-3xl font-semibold text-center text-white">Premium Listings</h1>
                         <p className="text-center pt-3 text-gray-300">Explore carefully selected properties in top locations.</p>
                     </div>
                     <div className="h-auto w-auto border border-gray-700 hover:border-amber-500 bg-gray-900 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-6 rounded-2xl">
-                        <ClipboardCheck className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                        <ClipboardCheck className="w-10 h-10 text-amber-400 mx-auto mb-4" />
                         <h1 className="text-3xl font-semibold text-center text-white">Easy Process</h1>
                         <p className="text-center pt-3 text-gray-300">A smooth and hassle-free buying, renting, and investing experience.</p>
                     </div>
                     <div className="h-auto w-auto border border-gray-700 hover:border-amber-500 bg-gray-900 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-6 rounded-2xl">
-                        <Headset className="w-10 h-10 text-amber-500 mx-auto mb-4" />
+                        <Headset className="w-10 h-10 text-amber-400 mx-auto mb-4" />
                         <h1 className="text-3xl font-semibold text-center text-white">24/7 Support</h1>
                         <p className="text-center pt-3 text-gray-300">Our team is always available to assist you whenever you need help.</p>
                     </div>
@@ -240,11 +240,11 @@ function Home() {
 
                 </div>
             </div>
-            <div className=" bg-slate-900 px-6 md:px-12 lg:px-24 py-32">
-                <p className="lg:text-center text-gray-400">Let's get started</p>
-                <h1 className="text-white lg:text-center text-3xl md:text-5xl lg:text-7xl font-bold lg:py-3 py-2.5">Ready to find your dream home?</h1>
-                <h4 className="text-gray-400 lg:text-center  pb-6 pt-2">Discover premium properties and let us help you make the right investment.</h4>
-                <Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl lg:text-center h-12 w-32 flex items-center justify-center lg:mx-auto text-black font-semibold transition duration-300">Contact Us</Link>
+            <div className=" bg-slate-900 px-6 py-32">
+                <p className="text-center text-gray-400">Let's get started</p>
+                <h1 className="text-white text-center text-3xl md:text-5xl lg:text-7xl font-semibold lg:py-3 py-2.5">Ready to find your dream home?</h1>
+                <h4 className="text-gray-400 text-center pb-6 pt-2 max-w-2xl mx-auto">Discover premium properties and let us help you make the right investment.</h4>
+                <Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl text-center h-12 w-32 flex items-center justify-center text-black font-semibold mx-auto transition duration-300">Contact Us</Link>
 
             </div>
         </div>

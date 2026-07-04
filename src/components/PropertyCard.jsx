@@ -53,14 +53,14 @@ function PropertyCard({ image, title, price, description }) {
                             </p>
 
                             <div className="flex gap-4">
-                                <button onClick={() => window.open("https://wa.me/923277090787", "_blank")} className="mt-6 font-semibold bg-amber-500 hover:bg-amber-400 text-black px-6 py-3 rounded-lg flex justify-center items-center gap-2">
+                                <button onClick={() => window.open("https://wa.me/923277090787", "_blank")} className="mt-6 font-semibold bg-amber-400 hover:bg-amber-500 text-black px-3 lg:px-6 py-3 rounded-lg flex justify-center items-center gap-2">
                                     <Phone size={18} />
                                     Contact Agent
                                 </button>
 
                                 <button
                                     onClick={() => setShowModal(false)}
-                                    className="mt-6 font-semibold bg-amber-500 hover:bg-amber-400 text-black px-6 py-3 rounded-lg"
+                                    className="mt-6 font-semibold bg-amber-400 hover:bg-amber-500 text-black px-3 lg:px-6 py-3 rounded-lg"
                                 >
                                     Close
                                 </button>
