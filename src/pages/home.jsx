@@ -51,7 +51,7 @@ function Home() {
     ];
     return (
         <div >
-            <div className="relative w-full h-screen overflow-hidden">
+            <div className="relative w-full lg:mt-20 h-screen overflow-hidden">
                 <video className="absolute top-0 left-0 w-full h-full object-cover" src="/videos/Heropic.mp4" autoPlay loop muted playsInline preload="metadata"></video>
                 <div className="absolute top-0 left-0 w-full h-full bg-black/70"></div>
                 <div className="relative z-10 flex flex-col justify-center h-full px-6 md:px-12 lg:px-24 text-white pt-4">
