@@ -7,13 +7,19 @@ function PropertyCard({ image, title, price, description }) {
     return (
         <div className="group relative w-full h-auto overflow-hidden cursor-pointer rounded-xl">
             <img src={image} alt={title} className="w-full h-[60vh] object-cover transition-transform duration-700 group-hover:scale-110" />
-            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/90 transition-all duration-500 opacity-0 group-hover:opacity-100"></div>
+            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/90 transition-all duration-500 lg:opacity-0 lg:group-hover:opacity-100"></div>
             <div className="absolute inset-5 rounded-sm border border-white/80"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-8">
-                <h2 className="text-4xl font-bold mb-3 opacity-0 group-hover:opacity-100"> {title}</h2>
-                <div className=" mt-6 flex justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ">
-                    <button onClick={() => setShowModal(true)} className="w-14 h-14 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition" >
+                <h2 className="text-4xl font-bold mb-3 lg:opacity-0 lg:group-hover:opacity-100"> {title}</h2>
+                <div className=" mt-6 flex justify-center lg:opacity-0 translate-y-4 lg:group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ">
+                    <button onClick={() => setShowModal(true)} className="w-14 h-14 rounded-full border-2 border-white hidden md:hidden lg:flex lg:items-center lg:justify-center hover:bg-white hover:text-black transition" >
                         <ArrowRight size={24} />
+                    </button>
+                    <button
+                        onClick={() => setShowModal(true)}
+                        className="flex md:flex lg:hidden w-full px-4 bg-amber-500 hover:bg-amber-400 text-black py-3 rounded-lg font-semibold"
+                    >
+                        View Details
                     </button>
                 </div>
 

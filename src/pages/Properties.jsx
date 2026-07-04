@@ -213,11 +213,11 @@ function Properties() {
             <div className="px-6 md:px-12 lg:px-24 py-20 bg-slate-950">
                 <h1 className="text-3xl md:text-5xl lg:text-7xl font-semibold text-white text-center">Our Listing Properties</h1>
                 <div className="flex gap-2 lg:gap-10 justify-center py-10">
-                    <button onClick={() => setCategory("All")} className="h-auto w-auto px-3 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">All</button>
-                    <button onClick={() => setCategory("Off Plan")} className="h-auto w-auto px-3 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Off Plan</button>
-                    <button onClick={() => setCategory("Buy")} className="h-auto w-auto px-3 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Buy</button>
-                    <button onClick={() => setCategory("Rent")} className="h-auto w-auto px-3 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Rent</button>
-                    <button onClick={() => setCategory("Luxury")} className="h-auto w-auto px-3 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Luxury</button>
+                    <button onClick={() => setCategory("All")} className="h-auto w-auto px-2 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">All</button>
+                    <button onClick={() => setCategory("Off Plan")} className="h-auto w-auto px-2 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Off Plan</button>
+                    <button onClick={() => setCategory("Buy")} className="h-auto w-auto px-2 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Buy</button>
+                    <button onClick={() => setCategory("Rent")} className="h-auto w-auto px-2 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Rent</button>
+                    <button onClick={() => setCategory("Luxury")} className="h-auto w-auto px-2 py-2 md:px-6 md:py-4 lg:px-6 lg:py-4 rounded-xl bg-amber-400 hover:bg-amber-500 text-black font-semibold">Luxury</button>
                 </div>
                 <div className="mt-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
