@@ -59,12 +59,12 @@ function Home() {
                     <p className="text-gray-300 text-large pt-8 text-justify md:text-justify lg:text-center lg:px-40">We help you discover premium homes, apartments, and commercial properties in the most desirable locations. Whether you're buying, selling, or renting, our trusted real estate experts are committed to making your property journey simple, secure, and stress-free.</p>
                     <div className="flex gap-4 mt-6 lg:mx-auto">
                         <Link to="/Properties" className="flex justify-center">
-                            <button className="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-6 py-4 rounded-2xl">
+                            <button className="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-3 lg:px-6 py-4 rounded-2xl">
                                 Explore Properties
                             </button>
                         </Link>
                         <Link to="/Contact" className="flex justify-center">
-                            <button className="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-6 py-4 rounded-2xl">
+                            <button className="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-3 lg:px-6 py-4 rounded-2xl">
                                 Contact Agent
                             </button>
                         </Link> 
